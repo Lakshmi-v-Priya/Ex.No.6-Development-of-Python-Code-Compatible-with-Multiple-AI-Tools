@@ -136,25 +136,6 @@ if data1 and data2:
 
 ---
 
-# Stage 3: Prompt for Generating Insights
-
-### Prompt Designed
-
-> Based on the compared API results, suggest actionable insights for a Smart Climate Monitoring System.  
-> If temperature difference is high, suggest possible reasons and next steps.
-
----
-
-### AI Generated Insights
-
-- Sensor calibration mismatch
-- API data update time difference
-- Geographic variation
-- Suggest averaging both values
-- Suggest storing historical data for anomaly detection
-
----
-
 # Evaluation & Comparative Analysis
 
 ## Evaluation Method Used: Rubric-Based Analysis
@@ -176,24 +157,6 @@ if data1 and data2:
 - Both tools produced accurate Python code.
 - Prompt clarity significantly influenced output quality.
 - Persona pattern improved technical precision.
-
----
-
-# Reflection Note
-
-The prompts were effective because:
-
-- The persona role increased technical accuracy.
-- Clear instructions improved structured code generation.
-- Step-by-step prompting improved comparison logic.
-- Asking for insights encouraged analytical output.
-
-Improvements that could be made:
-
-- Specify API names clearly.
-- Request modular code structure.
-- Ask for logging instead of print statements.
-- Include unit testing requirements.
 
 ---
 
